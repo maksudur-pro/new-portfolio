@@ -1,8 +1,20 @@
+import Blog from "./Blog";
+import Project from "./Project";
+import Skills from "./Skills";
+
 const RightSide = () => {
   return (
-    <div>
-      <h1>this is RightSide</h1>
-    </div>
+    <>
+      <div className="p-2">
+        <Skills />
+      </div>
+      <div className="p-2">
+        <Project />
+      </div>
+      <div className="p-2">
+        <Blog />
+      </div>
+    </>
   );
 };
 

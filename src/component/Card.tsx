@@ -12,7 +12,8 @@ const Card = () => {
           fetchPriority="high"
           alt="Maksudur Rahman Joy"
           height={355}
-          className="rounded-[30px] w-full  p-6  object-cover"
+          className="rounded-[30px] w-full  p-6  object-cover blur-sm"
+          onLoad={(e) => e.currentTarget.classList.remove("blur-sm")}
         />
         <figcaption className="p-4">
           <h2 className="font-semibold text-[#4F4F4F] text-2xl mt-2 sm:text-xl">

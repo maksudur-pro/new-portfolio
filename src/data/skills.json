@@ -1,0 +1,50 @@
+[
+  { "name": "HTML", "icon": "FaHtml5", "color": "text-red-600" },
+  { "name": "CSS", "icon": "FaCss3Alt", "color": "text-blue-600" },
+  { "name": "Tailwind", "icon": "SiTailwindcss", "color": "text-cyan-500" },
+  { "name": "Bootstrap", "icon": "FaBootstrap", "color": "text-[#7F11F9]" },
+  {
+    "name": "DaisyUI",
+    "icon": "daisyui",
+    "type": "img",
+    "src": "./assets/daisyui.webp"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "TbBrandJavascript",
+    "color": "text-yellow-500"
+  },
+  { "name": "React", "icon": "FaReact", "color": "text-rose-600" },
+  { "name": "Vue JS", "icon": "FaVuejs", "color": "text-[#3FB27F]" },
+  { "name": "React Router", "icon": "SiReactrouter" },
+  { "name": "Node JS", "icon": "FaNodeJs", "color": "text-green-600" },
+  { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-600" },
+  { "name": "Express JS", "icon": "SiExpress", "color": "text-black" },
+  { "name": "JWT", "icon": "jwt", "type": "img", "src": "./assets/jwt.svg" },
+  {
+    "name": "React Query",
+    "icon": "TanStack",
+    "type": "img",
+    "src": "./assets/TanStack.webp"
+  },
+  {
+    "name": "GSAP",
+    "icon": "gsap",
+    "type": "img",
+    "src": "./assets/gsap.webp"
+  },
+  { "name": "Firebase", "icon": "SiFirebase", "color": "text-amber-500" },
+  { "name": "Axios", "icon": "SiAxios", "color": "text-[#AC93F1]" },
+  { "name": "VS Code", "icon": "TbBrandVscode", "color": "text-blue-800" },
+  { "name": "GitHub", "icon": "FaGithub", "color": "text-black" },
+  { "name": "ESLint", "icon": "SiEslint", "color": "text-[#4930BD]" },
+  { "name": "Figma", "icon": "FaFigma", "color": "text-[#4930BD]" },
+  { "name": "Netlify", "icon": "SiNetlify", "color": "text-[#0ABEBB]" },
+  { "name": "Vercel", "icon": "SiVercel", "color": "text-black" },
+  {
+    "name": "Problem Solving",
+    "icon": "problem_solving",
+    "type": "img",
+    "src": "./assets/Problem-solving.webp"
+  }
+]
