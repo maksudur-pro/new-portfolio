@@ -27,7 +27,8 @@ const ProjectItem: React.FC<Props> = ({ project }) => {
             width={400}
             height={300}
             alt={project.title}
-            className="rounded-lg w-full h-full object-cover  object-top transition-[object-position] duration-[2000ms] ease-in-out hover:object-bottom cursor-pointer "
+            className="rounded-lg w-full h-full object-cover  object-top transition-[object-position] duration-[2000ms] ease-in-out hover:object-bottom cursor-pointer blur-sm"
+            onLoad={(e) => e.currentTarget.classList.remove("blur-sm")}
           />
         </div>
       </div>
